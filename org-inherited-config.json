@@ -1,9 +1,12 @@
 {
   "packageRules": [
     {
-      "matchPackagePatterns": ["^ovos-"],
-      "matchUpdateTypes": ["major"],
+      "matchPackageNames": ["^ovos-"],
       "rangeStrategy": "widen"
+    },
+    {
+      "matchPackageNames": ["^ovos-"],
+      "matchUpdateTypes": ["major"]
     }
   ]
 }
