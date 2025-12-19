@@ -6,7 +6,8 @@
     },
     {
       "matchPackageNames": ["^ovos-"],
-      "matchUpdateTypes": ["major"]
+      "matchUpdateTypes": ["major"],
+      "enabled": true
     }
   ]
 }
