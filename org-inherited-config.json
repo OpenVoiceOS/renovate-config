@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "peerDependencies"
+      ],
+      "rangeStrategy": "widen"
+    }
+  ]
+}
